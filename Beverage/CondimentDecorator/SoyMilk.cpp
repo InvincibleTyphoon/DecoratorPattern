@@ -4,7 +4,7 @@ SoyMilk::SoyMilk(Beverage* const beverage)
 {
 	this->beverage = beverage;
 	this->cost = 0.15;
-	this->description = "µÎÀ¯¶ó¶¼,";
+	this->description = "Soy Milk Latte,";
 }
 
 float SoyMilk::getCost()

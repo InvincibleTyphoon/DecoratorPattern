@@ -3,7 +3,7 @@
 DarkRoast::DarkRoast()
 {
 	this->cost = 0.99;
-	this->description = "다크 로스트 커피";
+	this->description = "Dark Roast Coffee";
 }
 
 float DarkRoast::getCost()

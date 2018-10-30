@@ -4,7 +4,7 @@ Mocha::Mocha(Beverage* const beverage)
 {
 	this->beverage = beverage;
 	this->cost = 0.2;
-	this->description = "¸ðÄ«, ";
+	this->description = "Mocha, ";
 }
 
 float Mocha::getCost()

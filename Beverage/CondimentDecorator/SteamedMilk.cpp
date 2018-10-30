@@ -1,12 +1,10 @@
 #include "SteamedMilk.h"
 
-
-
 SteamedMilk::SteamedMilk(Beverage* const beverage)
 {
 	this->beverage = beverage;
 	this->cost = 0.1;
-	this->description = "¶ó¶¼, ";
+	this->description = "Latte , ";
 }
 
 float SteamedMilk::getCost()

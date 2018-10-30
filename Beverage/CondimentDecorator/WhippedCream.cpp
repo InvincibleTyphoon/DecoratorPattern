@@ -4,7 +4,7 @@ WhippedCream::WhippedCream(Beverage* const beverage)
 {
 	this->beverage = beverage;
 	this->cost = 0.1;
-	this->description = "ÈÖÇÎÅ©¸², ";
+	this->description = "Whipped Cream, ";
 }
 
 float WhippedCream::getCost()

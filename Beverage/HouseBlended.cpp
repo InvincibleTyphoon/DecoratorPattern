@@ -5,7 +5,7 @@
 HouseBlended::HouseBlended()
 {
 	this->cost = 0.89;
-	this->description = "하우스 블렌드 커피";
+	this->description = "House Blended Coffee";
 }
 
 const string& HouseBlended::getDescription()

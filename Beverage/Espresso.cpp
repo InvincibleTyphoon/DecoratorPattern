@@ -3,7 +3,7 @@
 Espresso::Espresso()
 {
 	this->cost = 1.99;
-	this->description = "에스프레소";
+	this->description = "Espresso";
 }
 
 float Espresso::getCost()

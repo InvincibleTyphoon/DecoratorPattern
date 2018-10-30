@@ -1,5 +1,6 @@
 #include "CondimentDecorator.h"
 
+//Soy Milk Latte Condiment
 class SoyMilk : public CondimentDecorator
 {
 public:

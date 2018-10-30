@@ -13,6 +13,7 @@
 
 using namespace std;
 
+//Describes the menu in terms of description, and cost
 void describeMenu(Beverage * beverage)
 {
 	cout << "Description : " << beverage->getDescription() << endl;
@@ -21,6 +22,7 @@ void describeMenu(Beverage * beverage)
 
 int main()
 {
+	//Testing codes
 	Beverage * beverage1 = new DarkRoast();
 	describeMenu(beverage1);
 	delete beverage1;
@@ -43,8 +45,6 @@ int main()
 	beverage4 = new Mocha(beverage4);
 	describeMenu(beverage4);
 	delete beverage4;
-
-	
 
 	
 

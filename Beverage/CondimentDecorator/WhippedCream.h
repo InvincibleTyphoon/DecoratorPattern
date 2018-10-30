@@ -1,5 +1,7 @@
 #pragma once
 #include "CondimentDecorator.h"
+
+//Whipped Cream Condiment
 class WhippedCream : public CondimentDecorator
 {
 public:

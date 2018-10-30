@@ -1,5 +1,6 @@
 #include "CondimentDecorator.h"
 
+//Mocha condiment
 class Mocha : public CondimentDecorator
 {
 public:
